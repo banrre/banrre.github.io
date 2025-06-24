@@ -1,0 +1,24 @@
+* {
+    font-family: 'poppins' ,monospace, sans-serif;
+    font-size: small;
+}
+
+/* left column color */
+.bg-primary {
+    background-color: #000000 !important;
+    color: #EAE4D5;
+}
+
+/* background color right */
+.background-right {
+    background-color: #EAE4D5;
+}
+
+img {
+    max-height: 250px;
+    min-width: auto;
+}
+
+li {
+    text-decoration: none;
+}
