@@ -12,6 +12,7 @@
 /* background color right */
 .background-right {
     background-color: #EAE4D5;
+    color: #000000;
 }
 
 img {
@@ -29,4 +30,25 @@ li {
 
 .progress-bar {
     background-color: #EAE4D5;
+}
+
+/* change text color right column */
+.text-primary {
+    color: #000000 !important;
+}
+
+/* hoover effect on cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s; /* ease is for a slowd movement */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Y axis movement */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+@media print {
+    .page-break{
+        page-break-before: always;
+    }
 }
